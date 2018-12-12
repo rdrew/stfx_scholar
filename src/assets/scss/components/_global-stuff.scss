@@ -36,3 +36,16 @@ metadata dl {
         text-align:right;
     }
 }
+.logo-color {
+    &-one {
+color: $stfx-taupe;
+font-family: 'EB Garamond', serif;
+
+    }
+    &-two {
+
+color: $stfx-taupe;
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+    }
+}

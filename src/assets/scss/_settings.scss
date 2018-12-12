@@ -79,9 +79,10 @@ $stfx-green: #817C00;
 $stfx-taupe: #AD9E75;
 $stfx-brown: #4B3900;
 //--
-$heading-color: 
+$heading-color: $stfx-blue; 
 
-$white:white;
+
+$white:white; 
 $blue: #0a78bf;
 $blue-dark: #195c96;
 $blue-light: #3ba2d6;
@@ -130,6 +131,7 @@ $pn-bold: 'proxima_nova_altbold';
 $pn-black: 'proxima_nova_altblack';
 
 $body-font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'PT Sans', sans-serif;
 
 
 
@@ -189,7 +191,7 @@ $block-grid-max: 8;
 // ------------------
 
 //$header-font-family: $body-font-family;
-$header-font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$header-font-family: 'EB Garamond', serif;
 //$header-font-weight: $global-weight-normal;
 $header-font-weight: 600;
 $header-font-style: normal;
