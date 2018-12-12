@@ -72,6 +72,15 @@ $global-lineheight: 1.4;
 // my colors
 //===========
 //===========
+//STFX Branding
+
+$stfx-blue: #00478D;
+$stfx-green: #817C00;
+$stfx-taupe: #AD9E75;
+$stfx-brown: #4B3900;
+//--
+$heading-color: 
+
 $white:white;
 $blue: #0a78bf;
 $blue-dark: #195c96;
@@ -93,7 +102,7 @@ $orange-lighter: #fdf0b6;
 $orange-lightest: #fdfad8;
 
 $foundation-palette: (
-  primary: $green,
+  primary: $stfx-blue,
   secondary: #767676,
   success: $green,
   warning: $yellow,
