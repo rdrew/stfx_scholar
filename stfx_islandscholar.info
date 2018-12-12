@@ -1,5 +1,5 @@
 name = stfx_islandscholar
-description = custom islandscolar theme for STFX.
+description = custom islandscholar theme for STFX.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
