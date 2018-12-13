@@ -123,15 +123,27 @@ $logo-width-interior: 6rem;
 $logo-width-front: 8rem;
 
 
-/*$pn-thin: 'proxima_nova_scosfthin' [>'proxima_nova_ltthin'<];*/
 $pn-thin: 'proxima_nova_ltthin';
 $pn-regular: 'Proxima Nova';
 $pn-semi-Bold: 'proxima_nova_ltsemibold';
 $pn-bold: 'proxima_nova_altbold';
 $pn-black: 'proxima_nova_altblack';
+//Myriad fonts============
 
-$body-font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: 'PT Sans', sans-serif;
+$myriad-reg: 'MyriadPro-Regular';
+$myriad-bold-cond-it: 'MyriadPro-BoldCondIt';
+$myriad-bold-it: 'MyriadPro-BoldIt';
+$myriad-bold: 'MyriadPro-Bold';
+$myriad-semibold: 'MyriadPro-Semibold';
+$myriad-it: 'MyriadPro-It';
+$myriad-semibold-it: 'MyriadPro-SemiboldIt';
+$myriad-cond-it: 'MyriadPro-CondIt';
+$myriad-bold-cond: 'MyriadPro-BoldCond';
+$myriad-cond: 'MyriadPro-Cond';
+
+//========================
+$sans-serif: 'PT Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: $sans-serif;
 
 
 
@@ -190,8 +202,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-//$header-font-family: $body-font-family;
-$header-font-family: 'EB Garamond', serif;
+$header-font-family: $sans-serif;
 //$header-font-weight: $global-weight-normal;
 $header-font-weight: 600;
 $header-font-style: normal;
@@ -202,25 +213,25 @@ $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
     'h1': ('font-size': 36),
-    'h2': ('font-size': 26),
-    'h3': ('font-size': 18),
+    'h2': ('font-size': 36),
+    'h3': ('font-size': 26),
     'h4': ('font-size': 18),
-    'h5': ('font-size': 16),
-    'h6': ('font-size': 14),
+    'h5': ('font-size': 18),
+    'h6': ('font-size': 16),
   ),
   medium: (
     'h1': ('font-size': 38),
-    'h2': ('font-size': 26),
-    'h3': ('font-size': 22),
-    'h4': ('font-size': 20),
-    'h5': ('font-size': 18),
+    'h2': ('font-size': 38),
+    'h3': ('font-size': 26),
+    'h4': ('font-size': 22),
+    'h5': ('font-size': 20),
     'h6': ('font-size': 18),
   ),
 );
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+$paragraph-lineheight: 2;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
