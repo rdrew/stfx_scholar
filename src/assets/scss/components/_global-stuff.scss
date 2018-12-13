@@ -7,13 +7,11 @@ a {
     text-decoration: none;
 }
 
-[type="submit"] {
+[type='submit'] {
     @extend .button;
 }
 
-
-
-%green-box { 
+%green-box {
     background: #efffd8;
     //background: $light-green;
     border: 1px solid $green;
@@ -23,7 +21,7 @@ a {
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-width: 8px 0 4px;
-    padding: .5rem;
+    padding: 0.5rem;
 }
 
 #date-range-slider-canvas-0 {
@@ -31,35 +29,63 @@ a {
 }
 
 metadata dl {
-    display:none !important;
+    display: none !important;
     dt {
-        text-align:right;
+        text-align: right;
     }
 }
 .logo-color {
     &-one {
-color: $stfx-taupe;
-font-family: 'EB Garamond', serif;
-
+        color: $stfx-taupe;
+        font-family: 'EB Garamond', serif;
     }
     &-two {
-
-color: $stfx-taupe;
-font-family: 'PT Sans', sans-serif;
-font-weight: 400;
-font-size: rem-calc(26);
-text-transform: uppercase;
+        color: $stfx-taupe;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        font-size: rem-calc(26);
+        text-transform: uppercase;
     }
 }
 
-
-
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: $primary-color;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-transform: uppercase;
     font-weight: 400;
 }
+.content a {
+    border-bottom: 1px solid #00aeef;
+    color: #005da4;
+    text-decoration: none;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    &:hover {
+        background: #e1e1e1;
+        border-bottom-color: #003365;
+        color: #003365;
+    }
+}
+ul,
+ol {
+    font-family: $myriad-cond;
+    font-size: rem-calc(20);
+    line-height: 1.8;
+}
 
-
+form {
+    label {
+        font-size: 1rem;
+        font-family: $myriad-bold;
+    }
+}
