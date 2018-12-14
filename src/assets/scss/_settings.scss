@@ -75,6 +75,7 @@ $global-lineheight: 1.4;
 //STFX Branding
 
 $stfx-blue: #00478D;
+$stfx-dark-blue: #003365;
 $stfx-green: #817C00;
 $stfx-taupe: #AD9E75;
 $stfx-brown: #4B3900;
@@ -120,7 +121,7 @@ $body-font-color: $black;
 //logo width
 
 $logo-width-interior: 6rem;
-$logo-width-front: 8rem;
+$logo-width-front: 10rem;
 
 
 $pn-thin: 'proxima_nova_ltthin';
@@ -921,7 +922,7 @@ $tooltip-radius: $global-radius;
 
 $topbar-padding: 0.5rem;
 //$topbar-background: $light-gray;
-$topbar-background: #333;
+$topbar-background: $stfx-dark-blue;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;

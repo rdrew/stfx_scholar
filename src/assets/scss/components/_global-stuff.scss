@@ -34,19 +34,6 @@ metadata dl {
         text-align: right;
     }
 }
-.logo-color {
-    &-one {
-        color: $stfx-taupe;
-        font-family: 'EB Garamond', serif;
-    }
-    &-two {
-        color: $stfx-taupe;
-        font-family: 'PT Sans', sans-serif;
-        font-weight: 400;
-        font-size: rem-calc(26);
-        text-transform: uppercase;
-    }
-}
 
 h2,
 h3,
@@ -88,4 +75,33 @@ form {
         font-size: 1rem;
         font-family: $myriad-bold;
     }
+}
+//lp-text
+.lp-blurb {
+    font-size: 2rem;
+    color: #333;
+    &.subheader {
+        text-transform: none;
+        font-family: $myriad-cond;
+        font-size: 1.7rem;
+        color: #8a8a8a;
+    }
+}
+.collection-menu__title {
+    color: #fff;
+}
+.front .grid-container {
+    .lp-blurb {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+figure.orbit-figure::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 800px;
+    content: '';
+    margin-top: -800px;
 }
