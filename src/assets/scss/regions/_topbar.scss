@@ -36,6 +36,7 @@ header h1 {
         color: $white;
         font-family: 'EB Garamond', serif;
         //font-weight: bold;
+        text-transform: none !important;
     }
     &-two {
         color: $stfx-taupe;
