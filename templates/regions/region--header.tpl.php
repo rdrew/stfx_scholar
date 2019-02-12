@@ -62,7 +62,7 @@ $menu = menu_navigation_links('main-menu');
                 </a>
             </div>
 
-        <h1><a href="/"><span class="logo-color-one">STFX </span>
+        <h1><a href="/"><span class="logo-color-one">StFX </span>
 <span class="logo-color-two">Scholar</span>
 </a></h1>
 
