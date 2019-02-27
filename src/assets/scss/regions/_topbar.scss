@@ -39,8 +39,8 @@ header h1 {
         text-transform: none !important;
     }
     &-two {
-        color: $stfx-taupe;
-        color: $white;
+        color: $stfx-gold;
+        //color: $white;
         font-family: $myriad-cond;
         font-weight: 400;
         font-size: rem-calc(26);
@@ -92,7 +92,7 @@ header h1 {
 
 //mobile menu
 .mobile-menu__button {
-    @include hamburger(#ccc, green, 30px, 30px, 3px, 4);
+    @include hamburger(#ccc, $stfx-gold, 30px, 30px, 3px, 4);
     transition: all 0.4s;
     float: right;
     margin: rem-calc(6) 0;

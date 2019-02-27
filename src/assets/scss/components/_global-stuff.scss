@@ -1,5 +1,5 @@
 a {
-    color: #5a9607;
+    //color: #5a9607;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -52,7 +52,7 @@ h6 {
     font-weight: 400;
 }
 .content a {
-    border-bottom: 1px solid #00aeef;
+    //border-bottom: 1px solid #00aeef;
     color: #005da4;
     text-decoration: none;
     -webkit-transition: all 250ms ease-in-out;
@@ -92,7 +92,7 @@ form {
 }
 .front .grid-container {
     .lp-blurb {
-        width: 1200px;
+       max-width: 1200px;
         margin: 0 auto;
     }
 }
@@ -105,3 +105,4 @@ figure.orbit-figure::after {
     content: '';
     margin-top: -800px;
 }
+

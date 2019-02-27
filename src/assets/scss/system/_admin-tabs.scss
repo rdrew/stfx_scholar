@@ -1,4 +1,4 @@
-
+//@format
 .tabs--primary {
     border: none;
     background: none;
@@ -6,11 +6,9 @@
     @include button-group(li);
     margin: 0;
     a {
-
-        @include button(false, $green, auto, auto, hollow);
+        @include button(false, $stfx-blue, auto, auto, hollow);
         @extend .small;
         font-size: 0.75rem;
         @extend .button;
-
     }
 }

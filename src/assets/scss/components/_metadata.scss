@@ -1,6 +1,21 @@
 .metadata dl {
+    p {
+        padding: 0;
+        margin: 0;
+        line-height: 1.5;
+    }
     dt {
         max-width:10rem;
         text-align:right;
+        line-height: 1.5;
+    }
+    dt, dd {
+        //border-bottom: 1px solid #ccc;
+    }
+    .toggler {
+        //display: none;
+        @include button;
+        padding:4px;
+        margin: 0;
     }
 }
