@@ -5,7 +5,7 @@ $menu = menu_navigation_links('main-menu');
     <div class="grid-container top-bar">
         <div class="top-bar-left">
             <div class="large-logo logo-wrapper">
-                <a class="site-logo" href="https://www.cbu.ca/library/" rel="home" title="<?php print t('Home'); ?>">
+                <a class="site-logo" href="https://www.stfx.ca" rel="home" title="<?php print t('Home'); ?>">
 
 
 

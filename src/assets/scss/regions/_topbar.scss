@@ -71,6 +71,8 @@ header h1 {
 }
 .top-bar .main-menu {
     @include show-for(large);
+    display: flex;
+    align-items: center;
 }
 .top-bar h1 {
     //margin-left: calc(#{$logo-width-interior} + #{$global-margin});
@@ -99,4 +101,8 @@ header h1 {
     @include breakpoint(large) {
         display: none;
     }
+}
+
+.main-menu.menu a {
+    padding: 0.9rem 1rem 0.6rem;
 }
